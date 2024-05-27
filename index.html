@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+    <!-- Bootstrap Css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <!-- Index Css -->
+    <link rel="stylesheet" href="css/index.css" />
+    <!-- Google Fonts -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+      body {
+        font-weight: 400, 700;
+        font-family: "Inter", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="app" data-theme="light">
+      <div class="container">
+        <!-- Header -->
+        <header>
+          <div class="header-text">
+            <h1>Social Media Dashboard</h1>
+            <p>Total Followers: 23,004</p>
+          </div>
+          <div class="toggler-mood">
+            <span>Dark Mood</span>
+            <button type="button" class="btn-toggler-mood">
+              <div class="circle"></div>
+            </button>
+          </div>
+        </header>
+        <!-- Four Boxes -->
+        <div class="four-boxes">
+          <!-- Facebook Box -->
+          <div class="box box-facebook">
+            <div class="social-info">
+              <img src="images/icon-facebook.svg" alt="facebook icon" />
+              <span>@nathanf</span>
+            </div>
+            <div class="followers">
+              <h1 class="followers-counter">1987</h1>
+              <p>FOLLOWERS</p>
+            </div>
+            <div class="increase-data green-color">
+              <img src="images/icon-up.svg" alt="arrow-top-icon" />
+              <span class="increase-counter">12</span>
+              <span class="increase-text">Today</span>
+            </div>
+          </div>
+          <!-- Twitter Box -->
+          <div class="box box-twitter">
+            <div class="social-info">
+              <img src="images/icon-twitter.svg" alt="twitter icon" />
+              <span>@nathanf</span>
+            </div>
+            <div class="followers">
+              <h1 class="followers-counter">1044</h1>
+              <p>FOLLOWERS</p>
+            </div>
+            <div class="increase-data green-color">
+              <img src="images/icon-up.svg" alt="arrow-top-icon" />
+              <span class="increase-counter">99</span>
+              <span class="increase-text">Today</span>
+            </div>
+          </div>
+          <!-- Instagram Box -->
+          <div class="box box-instagram">
+            <div class="social-info">
+              <img src="images/icon-instagram.svg" alt="instagram icon" />
+              <span>@nathanf</span>
+            </div>
+            <div class="followers">
+              <h1 class="followers-counter">11k</h1>
+              <p>FOLLOWERS</p>
+            </div>
+            <div class="increase-data green-color">
+              <img src="images/icon-up.svg" alt="arrow-top-icon" />
+              <span class="increase-counter">1099</span>
+              <span class="increase-text">Today</span>
+            </div>
+          </div>
+          <!-- Youtube Box -->
+          <div class="box box-youtube">
+            <div class="social-info">
+              <img src="images/icon-youtube.svg" alt="youtube icon" />
+              <span>@nathanf</span>
+            </div>
+            <div class="followers">
+              <h1 class="followers-counter">8239</h1>
+              <p>FOLLOWERS</p>
+            </div>
+            <div class="increase-data red-color">
+              <img src="images/icon-down.svg" alt="arrow-top-icon" />
+              <span class="increase-counter">144</span>
+              <span class="increase-text">Today</span>
+            </div>
+          </div>
+        </div>
+        <!-- Overview Today -->
+        <div class="overview-today-container">
+          <h2 class="head-title">Overview - Today</h2>
+          <div class="overview-today-boxes">
+            <!-- Box 1 -->
+            <div class="box">
+              <div class="head">
+                <h3>Page Views</h3>
+                <img src="images/icon-facebook.svg" alt="Facebook Icon" />
+              </div>
+              <div class="foot">
+                <h3>87</h3>
+                <div class="foot-right green-color">
+                  <img src="images/icon-up.svg" alt="Facebook Icon" />
+                  <span>3%</span>
+                </div>
+              </div>
+            </div>
+            <!-- Box 2 -->
+            <div class="box">
+              <div class="head">
+                <h3>Likes</h3>
+                <img src="images/icon-facebook.svg" alt="Facebook Icon" />
+              </div>
+              <div class="foot">
+                <h3>52</h3>
+                <div class="foot-right red-color">
+                  <img src="images/icon-down.svg" alt="Facebook Icon" />
+                  <span>2%</span>
+                </div>
+              </div>
+            </div>
+            <!-- Box 3 -->
+            <div class="box">
+              <div class="head">
+                <h3>Likes</h3>
+                <img src="images/icon-instagram.svg" alt="Instagram Icon" />
+              </div>
+              <div class="foot">
+                <h3>6462</h3>
+                <div class="foot-right green-color">
+                  <img src="images/icon-up.svg" alt="Instagram Icon" />
+                  <span>2257%</span>
+                </div>
+              </div>
+            </div>
+            <!-- Box 4 -->
+            <div class="box">
+              <div class="head">
+                <h3>Profile Views</h3>
+                <img src="images/icon-instagram.svg" alt="Instagram Icon" />
+              </div>
+              <div class="foot">
+                <h3>52K</h3>
+                <div class="foot-right green-color">
+                  <img src="images/icon-up.svg" alt="Instagram Icon" />
+                  <span>1375%</span>
+                </div>
+              </div>
+            </div>
+            <!-- Box 5 -->
+            <div class="box">
+              <div class="head">
+                <h3>Retweets</h3>
+                <img src="images/icon-twitter.svg" alt="Twitter Icon" />
+              </div>
+              <div class="foot">
+                <h3>117</h3>
+                <div class="foot-right green-color">
+                  <img src="images/icon-up.svg" alt="Twitter Icon" />
+                  <span>303%</span>
+                </div>
+              </div>
+            </div>
+            <!-- Box 6 -->
+            <div class="box">
+              <div class="head">
+                <h3>Likes</h3>
+                <img src="images/icon-twitter.svg" alt="Twitter Icon" />
+              </div>
+              <div class="foot">
+                <h3>507</h3>
+                <div class="foot-right red-color">
+                  <img src="images/icon-down.svg" alt="Twitter Icon" />
+                  <span>553%</span>
+                </div>
+              </div>
+            </div>
+            <!-- Box 7 -->
+            <div class="box">
+              <div class="head">
+                <h3>Likes</h3>
+                <img src="images/icon-youtube.svg" alt="Youtube Icon" />
+              </div>
+              <div class="foot">
+                <h3>6462</h3>
+                <div class="foot-right red-color">
+                  <img src="images/icon-down.svg" alt="Youtube Icon" />
+                  <span>19%</span>
+                </div>
+              </div>
+            </div>
+            <!-- Box 8 -->
+            <div class="box">
+              <div class="head">
+                <h3>Total Views</h3>
+                <img src="images/icon-youtube.svg" alt="Youtube Icon" />
+              </div>
+              <div class="foot">
+                <h3>52K</h3>
+                <div class="foot-right red-color">
+                  <img src="images/icon-down.svg" alt="Youtube Icon" />
+                  <span>12%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      // Get Toggler Mood
+      const togglerMood = document.querySelector(".btn-toggler-mood");
+      // Get App Div
+      const app = document.querySelector(".app");
+      // Add Event Listener to Toggler Mood
+      togglerMood.addEventListener("click", () => {
+        if (app.dataset.theme === "dark") {
+          const mood = "light";
+          app.dataset.theme = mood;
+          saveMood(mood);
+        } else {
+          const mood = "dark";
+          app.dataset.theme = mood;
+          saveMood(mood);
+        }
+      });
+
+      // Function to get mood from local storage
+      const getMood = () => {
+        const mood = window.localStorage.getItem("mood");
+        if (mood) {
+          app.dataset.theme = mood;
+        }
+      };
+
+      // Set Mood When Page Load
+      window.addEventListener("load", getMood);
+
+      // Function to save mood in local storage
+      const saveMood = (mood) => {
+        window.localStorage.setItem("mood", mood);
+      };
+    </script>
+  </body>
+</html>
